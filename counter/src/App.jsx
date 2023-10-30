@@ -11,7 +11,8 @@ function App() {
     else {
       setCounter(counter + val); 
     }
-
+    // SetCounter pros is callback : setCounter(()=>{}) so if you want to repeat the setcounter to increase it multipe time then directly this will not update we need to update it through callback.
+    
   }
 
   return (
